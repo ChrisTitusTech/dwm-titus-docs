@@ -5,6 +5,7 @@ src = "src"
 title = "DWM for Everyone"
 
 [output.html]
+destination = "docs"
 additional-css = ["./theme/catppuccin.css","./theme/last-changed.css"]
 default-theme = "latte"
 preferred-dark-theme = "frappe"
@@ -12,13 +13,13 @@ print.enable = true
 fold.enable = true
 fold.level = 2
 
-[output.pdf]
-paper-width = 8
-paper-height = 11
+#[output.pdf]
+#paper-width = 8
+#paper-height = 11
 
-[output.epub]
+#[output.epub]
 # cover-image = "path/to/cover.jpg"
-use-default-css = true
+#use-default-css = true
 
 [preprocessor.last-changed]
 command = "mdbook-last-changed"
