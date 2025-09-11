@@ -178,8 +178,28 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="chapter-1"><a class="header" href="#chapter-1">Chapter 1</a></h1>
-<footer id="last-change">Last change: <time datetime="2025-09-10">2025-09-10</time></footer>
+                        <h1 id="installation"><a class="header" href="#installation">Installation</a></h1>
+<p>This guide assumes your system has the latest updates before going ahead with the installation on a Arch Linux based system.</p>
+<ol>
+<li>Launch Linutil Project with the command:
+<pre><code class="language-bash">curl -fsSL https://linutil.github.io/install | bash
+</code></pre>
+</li>
+</ol>
+<p><img src="/images/2025/linutil-appinstall.webp" alt="linutil-appinstall" /></p>
+<ol start="2">
+<li>Enable Multi-Selection with key <code>v</code> and select <code>dwm</code>, <code>rofi</code>, <code>bash prompt</code>, and <code>ghostty</code> from the list.
+<em>Note: You can also select other packages as per your requirement.</em></li>
+<li>Press <code>Enter</code> to start the installation. Follow the on-screen instructions to complete the installation.</li>
+</ol>
+<blockquote>
+<p>[!TIP]</p>
+<ul>
+<li>By default new terminals are opened by using the keyboard shortcut of <kbd>SUPER</kbd> + <kbd>X</kbd> while rofi is started using <kbd>SUPER</kbd>+<kbd>R</kbd></li>
+<li>Check <code>config.h</code> for the keybindings, and change them according to your preference.</li>
+</ul>
+</blockquote>
+
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
