@@ -6,7 +6,7 @@ This guide assumes your system has the latest updates before going ahead with th
     ```bash
     curl -fsSL https://linutil.github.io/install | bash
     ```
-![linutil-appinstall](/images/2025/linutil-appinstall.webp)
+![linutil-appinstall](/images/linutil-appinstall.webp)
 
 2. Enable Multi-Selection with key `v` and select `dwm`, `rofi`, `bash prompt`, and `ghostty` from the list.
   _Note: You can also select other packages as per your requirement._
