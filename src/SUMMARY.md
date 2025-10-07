@@ -1,4 +1,4 @@
 # Summary
 
 - [Installation](./install.md)
-- [Getting Started](./getting_started.md)
+- [Getting Started](./1-gettingstarted.md)
